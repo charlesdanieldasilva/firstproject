@@ -1,10 +1,4 @@
 @import url('https://fonts.google.com/specimen/Outfit');
-@media (min-width: 375px) {
-  /* smartphones, iPhone */
-}
-@media (min-width: 1440px) {
-  /* Desktops */
-}
 body {
   background-color: hsl(212, 45%, 89%);
   border-radius: 5px;
@@ -49,4 +43,7 @@ h1 {
 .attribution {
   padding: 20px;
   font-size: x-small;
+  text-align: center;
+}
+@media only screen and (max-device-width: 375px) {
 }
